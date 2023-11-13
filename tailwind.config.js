@@ -7,6 +7,9 @@ module.exports = withMT({
     container: {
       center: true,
     },
+    fontFamily: {
+      content: ['Ubuntu', 'sans-serif']
+    },
     extend: {},
     colors: {
       "BrandYellow": "#fde047",
