@@ -9,7 +9,7 @@ module.exports = withMT({
     },
     extend: {},
     colors: {
-      "BrandYellow": "",
+      "BrandYellow": "#fde047",
     },
   },
   plugins: [],

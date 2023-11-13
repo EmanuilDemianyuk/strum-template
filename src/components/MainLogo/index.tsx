@@ -1,6 +1,6 @@
 const MainLogo = () => {
   return (
-    <div>
+    <div className="text-white">
         LOGO
     </div>
   )
