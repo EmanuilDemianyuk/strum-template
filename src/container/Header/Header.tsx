@@ -4,8 +4,8 @@ import HourServices from "src/components/NavMenu/HourServices/indes"
 
 const Header = () => {
   return (
-    <header name="header" className=" bg-BrandYellow">
-        <div className="flex justify-between container">
+    <header name="header" className="bg-black text-white w-full h-24 fixed top-0 left-0 z-20">
+        <div className="container w-full h-full flex justify-between items-center">
             <MainLogo/>
             <NavMenu/>
             <HourServices/>

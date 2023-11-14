@@ -3,8 +3,8 @@ import { Link } from "react-scroll";
 const NavMenu = () => {
   return (
     <nav>
-        <ul  className="flex gap-4">
-            <li className="cursor-pointer">
+        <ul className="flex gap-8 font-medium">
+            <li className="cursor-pointer hover:underline">
                 <Link
                 to="about"
                 smooth={true}
@@ -13,7 +13,7 @@ const NavMenu = () => {
                     Про нас
                 </Link>
             </li>
-            <li className="cursor-pointer">
+            <li className="cursor-pointer hover:underline">
                 <Link
                 to="services"
                 smooth={true}
@@ -22,7 +22,7 @@ const NavMenu = () => {
                     Послуги
                 </Link>
             </li>
-            <li className="cursor-pointer">
+            <li className="cursor-pointer hover:underline">
                 <Link
                 to="blog"
                 smooth={true}
@@ -31,7 +31,7 @@ const NavMenu = () => {
                    Наш блог
                 </Link>
             </li>
-            <li className="cursor-pointer">
+            <li className="cursor-pointer hover:underline">
                 <Link
                 to="contact"
                 smooth={true}

@@ -1,9 +1,9 @@
-import strumLogo from 'src/assets/icons/strumLogo.svg';
+import strumLogo from 'src/assets/icons/logoStrum.svg';
 import { Link } from "react-scroll";
 
 const MainLogo = () => {
   return (
-    <div className="bg-white rounded-full overflow-hidden border max-w-[2.5em] max-h-[2.5em] cursor-pointer">
+    <div className="bg-white max-w-[5.5em] max-h-[5.5em] cursor-pointer">
         <Link
         to="header"
         smooth={true}
