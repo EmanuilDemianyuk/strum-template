@@ -1,7 +1,13 @@
+import OurServices from "src/components/OurServices";
+import Welcome from "src/components/Welcome";
+
 const Main = () => {
   return (
-    <main></main>
-  )
+    <main>
+      <Welcome />
+      <OurServices />
+    </main>
+  );
 }
 
-export default Main
+export default Main;
