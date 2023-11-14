@@ -1,4 +1,5 @@
 import { Button } from '@material-tailwind/react';
+import phoneIcon from 'src/assets/icons/phone.svg';
 import React from 'react';
 
 const OurServices = () => {
@@ -67,9 +68,12 @@ const OurServices = () => {
                         <h5 className='font-medium text-xl'>Lorem ipsum</h5>
                         <p className='p-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
                         <Button 
-                        size='lg' 
-                        className='rounded-full bg-BrandYellow text-black'>
-                            Зателефонувати
+                        size='sm' 
+                        className='text-black rounded-full flex items-center gap-2 bg-BrandYellow'>
+                            <span>Зателефонувати</span> 
+                            <div className='w-6 h-6 bg-black rounded-full'>
+                                <img className='w-full h-full object-cover p-2' src={phoneIcon} alt="icon" />
+                            </div>
                         </Button>
                     </div>
                 </div>
