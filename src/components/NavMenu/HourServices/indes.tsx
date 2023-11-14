@@ -1,4 +1,4 @@
-import recLogo from 'src/assets/recLogo.svg';
+import recLogo from 'src/assets/icons/recLogo.svg';
 
 const HourServices = () => {
   return (

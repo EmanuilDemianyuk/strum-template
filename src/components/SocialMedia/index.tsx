@@ -1,4 +1,4 @@
-import instagramLogo from 'src/assets/instagramLogo.svg';
+import instagramLogo from 'src/assets/icons/instagramLogo.svg';
 
 const SocialMedia = () => {
   return (

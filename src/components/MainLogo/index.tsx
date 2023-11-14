@@ -1,4 +1,4 @@
-import strumLogo from 'src/assets/strumLogo.svg';
+import strumLogo from 'src/assets/icons/strumLogo.svg';
 import { Link } from "react-scroll";
 
 const MainLogo = () => {
