@@ -8,8 +8,8 @@ const Welcome = () => {
     return (
         <section 
         className='bg-black text-BrandYellow w-full min-h-[470px] relative pt-16' 
-        style={{clipPath: "polygon(50% 0%, 100% 0%, 100% 90%, 75% 90%, 70% 100%, 30% 100%, 25% 90%, 0% 90%, 0% 0%)"}}>
-            <div className='hidden md:block md:absolute top-24 left-2'>
+        style={{clipPath: "polygon(50% 0%, 100% 0%, 100% 95%, 75% 95%, 70% 100%, 30% 100%, 25% 95%, 0% 95%, 0% 0%)"}}>
+            <div className='hidden md:block md:absolute top-28 left-2'>
                 <div className='min-h-[300px] max-w-[210px]'>
                     <img className='w-full h-full object-cover rounded-2xl' src={workerOne} alt="worker" />
                 </div>
@@ -37,7 +37,7 @@ const Welcome = () => {
                 </div>
             </div>
           
-            <div className='hidden md:block md:absolute top-24 right-2'>
+            <div className='hidden md:block md:absolute top-28 right-2'>
                 <div className='min-h-[300px] max-w-[210px]'>
                     <img className='w-full h-full object-cover rounded-2xl' src={workerTwo} alt="worker" />
                 </div>
