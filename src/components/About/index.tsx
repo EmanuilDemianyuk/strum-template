@@ -1,4 +1,3 @@
-import React from 'react';
 import aboutImage from 'src/assets/images/aboutImage.jpeg';
 
 const About = () => {

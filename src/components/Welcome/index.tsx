@@ -1,5 +1,4 @@
 import { Button } from '@material-tailwind/react';
-import React from 'react';
 import workerOne from 'src/assets/images/welcome-worker1.jpeg';
 import workerTwo from 'src/assets/images/welcome-worker2.jpg';
 import phoneIcon from 'src/assets/icons/phone.svg';

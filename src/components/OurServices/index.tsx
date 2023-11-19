@@ -1,6 +1,6 @@
 import { Button } from '@material-tailwind/react';
 import phoneIcon from 'src/assets/icons/phone.svg';
-import React from 'react';
+
 
 const OurServices = () => {
     return (
