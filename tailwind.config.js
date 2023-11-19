@@ -8,12 +8,13 @@ module.exports = withMT({
       center: true,
     },
     fontFamily: {
-      content: ['Ubuntu', 'sans-serif']
+      content: ["Ubuntu", "sans-serif"]
     },
-    extend: {},
     colors: {
       "BrandYellow": "#fde047",
+      "BrandGray": "#374151",
     },
+    extend: {},
   },
   plugins: [],
 });
