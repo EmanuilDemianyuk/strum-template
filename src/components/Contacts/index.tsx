@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button } from '@material-tailwind/react';
 import phoneIcon from 'src/assets/icons/phone.svg';
 import house from 'src/assets/images/housePng.png';
@@ -56,7 +55,7 @@ const Contacts = () => {
         //     </div>
         // </section>
         <section
-        name='contact'
+        id='contact'
         className='bg-BrandYellow w-full min-h-[680px] lg:min-h-[600px] xl:min-h-[470px] relative pt-16 xl:pt-24' 
         style={{clipPath: "polygon(10% 4%, 40% 4%, 44% 0%, 100% 0%, 100.2% 100.5%, 50% 100.5%, 0% 100.5%, 0% 0%, 6% 0%)"}}
         >

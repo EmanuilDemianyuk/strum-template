@@ -4,7 +4,7 @@ import aboutImage from 'src/assets/images/aboutImage.jpeg';
 const About = () => {
     return (
         <section
-        name='about'
+        id='about'
         className='w-full py-32 md:py-60'
         >
             <div className='container p-4 flex flex-col justify-center w-full h-full'>
