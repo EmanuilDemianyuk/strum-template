@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 const  NavLink = ( { reverse = false }: { reverse?: boolean } ) => {
     const options = reverse 
-                    ? "flex flex-col gap-8 font-medium pt-2 pb-10"
+                    ? "flex flex-col gap-8 font-medium pt-2 pb-10 text-center"
                     : "flex gap-4 font-medium md:gap-8"
   return (
     <nav>
