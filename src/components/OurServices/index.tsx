@@ -15,7 +15,7 @@ const OurServices = () => {
                     <p className='mb-8 text-BrandGray'>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
                 </div>
 
-                <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12'>
+                <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 place-items-center'>
                     
                     <Section
                         img=''
@@ -41,8 +41,16 @@ const OurServices = () => {
                         img=''
                         title='Lorem'
                     />
+                    <Section
+                        img=''
+                        title='Lorem'
+                    />
+                    <Section
+                        img=''
+                        title='Lorem'
+                    />
 
-                    <div className='flex flex-col justify-center items-center text-center bg-black text-white rounded-2xl p-4'>
+                    {/* <div className='flex flex-col justify-center items-center text-center bg-black text-white rounded-2xl p-4'>
                         <h5 className='font-medium text-xl'>Lorem ipsum</h5>
                         <p className='p-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
                         <Button 
@@ -53,7 +61,7 @@ const OurServices = () => {
                                 <img className='w-full h-full object-cover p-2' src={phoneIcon} alt="icon" />
                             </div>
                         </Button>
-                    S</div>
+                    S</div> */}
                 </div>
             </div>
         </section>
