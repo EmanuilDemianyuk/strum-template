@@ -1,5 +1,6 @@
 import { Button } from '@material-tailwind/react';
 import phoneIcon from 'src/assets/icons/phone.svg';
+import Section from './Section';
 
 
 const OurServices = () => {
@@ -15,55 +16,32 @@ const OurServices = () => {
                 </div>
 
                 <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12'>
-                    <div className='text-center md:text-start'>
-                        <div className='w-20 h-20 bg-BrandYellow rounded-2xl mx-auto md:mx-0'>
-                            <img src="" alt="icon" />
-                        </div>
-                        <h5 className='py-3 font-medium text-xl'>Lorem ipsum</h5>
-                        <p className=' text-BrandGray'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, consequatur vero ratione excepturi tempora nesciunt</p>
-                    </div>
-                    <div className='text-center md:text-start'>
-                        <div className='w-20 h-20 bg-BrandYellow rounded-2xl mx-auto md:mx-0'>
-                            <img src="" alt="icon" />
-                        </div>
-                        <h5 className='py-3 font-medium text-xl'>Lorem ipsum</h5>
-                        <p className=' text-BrandGray'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, consequatur vero ratione excepturi tempora nesciunt</p>
-                    </div>
-                    <div className='text-center md:text-start'>
-                        <div className='w-20 h-20 bg-BrandYellow rounded-2xl mx-auto md:mx-0'>
-                            <img src="" alt="icon" />
-                        </div>
-                        <h5 className='py-3 font-medium text-xl'>Lorem ipsum</h5>
-                        <p className=' text-BrandGray'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, consequatur vero ratione excepturi tempora nesciunt</p>
-                    </div>
-                    <div className='text-center md:text-start'>
-                        <div className='w-20 h-20 bg-BrandYellow rounded-2xl mx-auto md:mx-0'>
-                            <img src="" alt="icon" />
-                        </div>
-                        <h5 className='py-3 font-medium text-xl'>Lorem ipsum</h5>
-                        <p className=' text-BrandGray'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, consequatur vero ratione excepturi tempora nesciunt</p>
-                    </div>
-                    <div className='text-center md:text-start'>
-                        <div className='w-20 h-20 bg-BrandYellow rounded-2xl mx-auto md:mx-0'>
-                            <img src="" alt="icon" />
-                        </div>
-                        <h5 className='py-3 font-medium text-xl'>Lorem ipsum</h5>
-                        <p className=' text-BrandGray'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, consequatur vero ratione excepturi tempora nesciunt</p>
-                    </div>
-                    <div className='text-center md:text-start'>
-                        <div className='w-20 h-20 bg-BrandYellow rounded-2xl mx-auto md:mx-0'>
-                            <img src="" alt="icon" />
-                        </div>
-                        <h5 className='py-3 font-medium text-xl'>Lorem ipsum</h5>
-                        <p className=' text-BrandGray'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, consequatur vero ratione excepturi tempora nesciunt</p>
-                    </div>
-                    <div className='text-center md:text-start'>
-                        <div className='w-20 h-20 bg-BrandYellow rounded-2xl mx-auto md:mx-0'>
-                            <img src="" alt="icon" />
-                        </div>
-                        <h5 className='py-3 font-medium text-xl'>Lorem ipsum</h5>
-                        <p className=' text-BrandGray'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, consequatur vero ratione excepturi tempora nesciunt</p>
-                    </div>
+                    
+                    <Section
+                        img=''
+                        title='Lorem'
+                    />
+                    <Section
+                        img=''
+                        title='Lorem'
+                    />
+                    <Section
+                        img=''
+                        title='Lorem'
+                    />
+                    <Section
+                        img=''
+                        title='Lorem'
+                    />
+                    <Section
+                        img=''
+                        title='Lorem'
+                    />
+                    <Section
+                        img=''
+                        title='Lorem'
+                    />
+
                     <div className='flex flex-col justify-center items-center text-center bg-black text-white rounded-2xl p-4'>
                         <h5 className='font-medium text-xl'>Lorem ipsum</h5>
                         <p className='p-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
@@ -75,7 +53,7 @@ const OurServices = () => {
                                 <img className='w-full h-full object-cover p-2' src={phoneIcon} alt="icon" />
                             </div>
                         </Button>
-                    </div>
+                    S</div>
                 </div>
             </div>
         </section>
