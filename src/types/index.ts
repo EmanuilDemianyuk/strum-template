@@ -24,6 +24,6 @@ export type Description = {
   name: string;
   unit: string;
   price: number;
-  comments: undefined | string;
+  comments: string | undefined;
 }
 

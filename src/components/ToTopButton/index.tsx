@@ -1,4 +1,3 @@
-import { Button } from '@material-tailwind/react';
 import { useState, useEffect } from 'react';
 import topButton from 'src/assets/icons/toTopButton.svg';
 
@@ -6,13 +5,7 @@ const ToTopButton = () => {
     const [backToTop, setBackToTop] = useState<boolean>(false);
 
     useEffect(() => {
-        window.addEventListener('scroll', () => {
-            if(window.scrollY > 200) {
-                setBackToTop(true);
-            } else {
-                setBackToTop(false);
-            }
-        });
+        window.addEventListener('scroll', () => window.scrollY > 200 ? setBackToTop(true) : setBackToTop(false));
     }, [])
 
     const scrollToTop = () => {
@@ -25,14 +18,13 @@ const ToTopButton = () => {
     return (
         <>
             {backToTop && (
-                <Button
+                <button
                 onClick={scrollToTop}
-                className='fixed right-5 bottom-5 z-50 bg-transparent p-0 shadow-none hover:shadow-none'
+                className='fixed right-7 bottom-7 z-50 w-14 h-14 bg-white rounded-full shadow-lg animate-bounce'
                 >
-                    <div className='w-16 h-16 bg-white rounded-full shadow-lg'>
-                        <img className='w-full h-full object-cover' src={topButton} alt="button" />
-                    </div>
-                </Button>)
+                    <img className='w-full h-full object-cover' src={topButton} alt="button" />
+                </button>
+                )
             }
         </>
     );
