@@ -24,15 +24,17 @@ const Welcome = () => {
                         <span>Якість</span>
                     </div>
                     <h1 className='text-white font-bold text-center text-3xl max-w-[300px] lg:text-5xl lg:max-w-[500px]'>Надаємо послуги професійного електромонтажу</h1>
-                    <Button 
-                    size='lg'
-                    className='text-black rounded-full mt-8 flex items-center gap-2 bg-BrandYellow'
-                    >
-                        <span>Зателефонувати</span> 
-                        <div className='w-8 h-8 bg-black rounded-full'>
-                            <img className='w-full h-full object-cover p-2' src={phoneIcon} alt="phone" />
-                        </div>
-                    </Button>
+                    <a href="tel:+380662866688">
+                        <Button 
+                        size='lg'
+                        className='text-black rounded-full mt-8 flex items-center gap-2 bg-BrandYellow'
+                        >
+                            <span>Зателефонувати</span> 
+                            <div className='w-8 h-8 bg-black rounded-full'>
+                                <img className='w-full h-full object-cover p-2' src={phoneIcon} alt="phone" />
+                            </div>
+                        </Button>
+                    </a>
                 </div>
             </div>
           

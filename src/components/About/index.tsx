@@ -26,7 +26,9 @@ const About = () => {
                         </div>
                         <div className='bg-black text-BrandYellow rounded-2xl inline-block max-w-[400px]'>
                             <p className='p-4 font-light'>Ви можете звʼязатись із нами за цим номером телефону 
-                                <span className='underline text-lg'> 066-286-66-88</span>
+                                <a href="tel:+380662866688">
+                                    <span className='underline text-lg'> 066-286-66-88</span>
+                                </a>
                             </p>
                         </div>
                     </div>
