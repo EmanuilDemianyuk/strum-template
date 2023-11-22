@@ -1,4 +1,3 @@
-import React from 'react';
 import SocialMedia from '../SocialMedia';
 import ProjectCard from './ProjectCard';
 import imageOne from 'src/assets/images/projects-1.jpeg';
