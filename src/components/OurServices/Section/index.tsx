@@ -14,7 +14,7 @@ const Section = ( { title, img }: SectionProps ): JSX.Element => {
       className="m-0 rounded-none h-[200px]"
       >
         <img
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover transition-transform hover:scale-[1.2]"
           src={img}
           alt="image"
         />
@@ -22,7 +22,7 @@ const Section = ( { title, img }: SectionProps ): JSX.Element => {
     <CardBody className="bg-BrandYellow flex justify-center items-center">
       <Typography
         variant="h6"
-        className="font-bold text-black min-h-[50px] md:min-h-[80px] text-center"
+        className="font-bold text-black min-h-[50px] sm:min-h-[80px] text-center font-content"
       >
         {title}
       </Typography>
