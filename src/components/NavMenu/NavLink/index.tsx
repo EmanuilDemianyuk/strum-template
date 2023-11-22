@@ -40,6 +40,16 @@ const  NavLink = ( { reverse = false }: { reverse?: boolean } ) => {
             <li 
             className="cursor-pointer duration-300 hover:underline hover:text-yellow-100 active:text-BrandYellow">
                 <Link
+                to="price"
+                smooth={true}
+                duration={500}
+                >
+                   Ціни
+                </Link>
+            </li>
+            <li 
+            className="cursor-pointer duration-300 hover:underline hover:text-yellow-100 active:text-BrandYellow">
+                <Link
                 to="contact"
                 smooth={true}
                 duration={500}

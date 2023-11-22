@@ -1,4 +1,5 @@
 import About from "src/components/About";
+import AccordionMenu from "src/components/AccordionMenu";
 import Contacts from "src/components/Contacts";
 import OurServices from "src/components/OurServices";
 import Projects from "src/components/Projects";
@@ -11,6 +12,7 @@ const Main = () => {
       <OurServices />
       <About />
       <Projects />
+      <AccordionMenu/>
       <Contacts />
     </main>
   );
