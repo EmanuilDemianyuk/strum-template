@@ -6,7 +6,7 @@ import phoneIcon from 'src/assets/icons/phone.svg';
 const Welcome = () => {
     return (
         <section 
-        className='bg-black text-BrandYellow w-full min-h-[470px] relative pt-16' 
+        className='bg-black text-BrandYellow w-full min-h-[470px] relative pt-16 mb-32' 
         style={{clipPath: "polygon(50% 0%, 100% 0%, 100% 95%, 75% 95%, 70% 100%, 30% 100%, 25% 95%, 0% 95%, 0% 0%)"}}>
             <div className='hidden md:block md:absolute top-28 left-2'>
                 <div className='min-h-[300px] max-w-[210px]'>

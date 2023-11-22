@@ -12,7 +12,7 @@ const OurServices = () => {
     return (
         <section
         id='services'
-        className='w-full py-32 md:py-60'
+        className='w-full pb-32 md:pb-60'
         >
             <div className='container p-4 flex flex-col justify-center w-full h-full'>
                 <div className='text-center'>
