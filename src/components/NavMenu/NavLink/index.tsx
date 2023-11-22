@@ -10,16 +10,6 @@ const  NavLink = ( { reverse = false }: { reverse?: boolean } ) => {
             <li 
             className="cursor-pointer duration-300 hover:underline hover:text-yellow-100 active:text-BrandYellow">
                 <Link
-                to="about"
-                smooth={true}
-                duration={500}
-                >
-                    Про нас
-                </Link>
-            </li>
-            <li 
-            className="cursor-pointer duration-300 hover:underline hover:text-yellow-100 active:text-BrandYellow">
-                <Link
                 to="services"
                 smooth={true}
                 duration={500}
@@ -30,11 +20,21 @@ const  NavLink = ( { reverse = false }: { reverse?: boolean } ) => {
             <li 
             className="cursor-pointer duration-300 hover:underline hover:text-yellow-100 active:text-BrandYellow">
                 <Link
-                to="blog"
+                to="about"
                 smooth={true}
                 duration={500}
                 >
-                   Наш блог
+                    Про нас
+                </Link>
+            </li>
+            <li 
+            className="cursor-pointer duration-300 hover:underline hover:text-yellow-100 active:text-BrandYellow">
+                <Link
+                to="projects"
+                smooth={true}
+                duration={500}
+                >
+                   Проекти
                 </Link>
             </li>
             <li 
