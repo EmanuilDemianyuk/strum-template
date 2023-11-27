@@ -28,8 +28,8 @@ return (
                 {title}
             </AccordionHeader>
             <AccordionBody>
-                <div className='grid grid-rows-1 grid-cols-3 bg-BrandYellow p-2 py-4 text-center text-lg'>
-                    <p>Найменування</p>
+                <div className='grid grid-rows-1 grid-cols-4 bg-BrandYellow p-2 py-4 text-center text-lg'>
+                    <p className='col-span-2'>Найменування</p>
                     <p>Один.вимр</p>
                     <p>Ціна/один, грн.</p>
                 </div>
