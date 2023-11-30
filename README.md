@@ -13,5 +13,14 @@
 
 <h3>Build with:</h3>
 
-<h4>» Frontend</h4>
+[![My Skills](https://skillicons.dev/icons?i=react,tailwind,vite,js)](https://skillicons.dev)
 
+<h2>Screenshots of the Project 📸</h2>
+<br>
+
+
+<div align='center'>
+ <img src=''/>
+</div>
+
+<br><br>
