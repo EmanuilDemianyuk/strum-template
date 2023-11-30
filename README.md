@@ -15,3 +15,47 @@
 
 <h4>» Frontend</h4>
 
+[![My Skills](https://skillicons.dev/icons?i=react,tailwind,vite,js)](https://skillicons.dev)
+
+<h2>Screenshots of the Project 📸</h2>
+<br>
+
+<h3 align='center'>Services </h3>
+
+<div align='center'>
+ <img src=''/>
+</div>
+
+<br><br>
+
+<h3 align='center'>About us </h3>
+
+<div align='center'>
+ <img src=''/>
+</div>
+
+<br><br>
+
+<h3 align='center'>Projects </h3>
+
+<div align='center'>
+ <img src=''/>
+</div>
+
+<br><br>
+
+<h3 align='center'>Prices </h3>
+
+<div align='center'>
+ <img src=''/>
+</div>
+
+<br><br>
+
+<h3 align='center'>Contacts </h3>
+
+<div align='center'>
+ <img src=''/>
+</div>
+
+<br><br>
