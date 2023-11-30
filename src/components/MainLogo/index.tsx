@@ -3,9 +3,9 @@ import { Link } from "react-scroll";
 
 const MainLogo = () => {
   return (
-    <div className="bg-white max-w-[5.5em] max-h-[5.5em] cursor-pointer grow-0">
+    <div className="bg-white border-[0.00625em] border-white max-w-[5.5em] max-h-[5.5em] cursor-pointer rounded-full overflow-hidden">
         <Link
-        to="header"
+        to="welcome"
         smooth={true}
         duration={500}
         >

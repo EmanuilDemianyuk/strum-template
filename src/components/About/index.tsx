@@ -4,7 +4,7 @@ const About = () => {
     return (
         <section
         id='about'
-        className='w-full pb-16 md:pb-32'
+        className='w-full pt-16 md:pt-32'
         >
             <div className='container p-4 flex flex-col justify-center w-full h-full'>
                 <div className='flex flex-wrap justify-between lg:flex-nowrap'>
@@ -26,8 +26,8 @@ const About = () => {
                         </div>
                         <div className='bg-black text-BrandYellow rounded-2xl inline-block max-w-[400px]'>
                             <p className='p-4 font-light'>Ви можете звʼязатись із нами за цим номером телефону 
-                                <a href="tel:+380662866688">
-                                    <span className='underline text-lg'> 066-286-66-88</span>
+                                <a href="tel:+380662866688" className='px-2'>
+                                    <span className='underline text-lg inline-block'> 066-286-66-88</span>
                                 </a>
                             </p>
                         </div>

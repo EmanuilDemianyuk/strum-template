@@ -9,7 +9,7 @@ const Projects = () => {
     return (
         <section
         id='projects'
-        className='w-full pb-16 md:pb-32'
+        className='w-full pt-16 md:pt-32'
         >
             <div className='container p-4 flex flex-col justify-center w-full h-full'>
                 <div className='flex justify-between items-center mb-8'>

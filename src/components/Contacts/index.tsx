@@ -8,7 +8,7 @@ const Contacts = () => {
     return (
         <section
         id='contact'
-        className='bg-BrandYellow w-full min-h-[680px] lg:min-h-[600px] xl:min-h-[470px] relative pt-16 xl:pt-24' 
+        className='bg-BrandYellow w-full min-h-[680px] lg:min-h-[600px] xl:min-h-[470px] relative pt-16 xl:pt-24 mt-16' 
         style={{clipPath: "polygon(10% 4%, 40% 4%, 44% 0%, 100% 0%, 100.2% 100.5%, 50% 100.5%, 0% 100.5%, 0% 0%, 6% 0%)"}}
         >
             <div className='container p-4 w-full h-full'>
