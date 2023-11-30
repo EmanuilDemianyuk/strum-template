@@ -20,7 +20,7 @@
 
 
 <div align='center'>
- <img src=''/>
+ <img src='/screenshot/strum-template.png'/>
 </div>
 
 <br><br>
