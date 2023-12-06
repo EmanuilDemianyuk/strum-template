@@ -1,7 +1,7 @@
 import { Card, CardHeader, CardBody, Typography } from "@material-tailwind/react";
 import { SectionProps } from "src/types";
 
-const Section = ( { title, img }: SectionProps ): JSX.Element => {
+const ServicesCard = ( { title, img }: SectionProps ): JSX.Element => {
   return (
     <Card
     shadow={false}
@@ -31,4 +31,4 @@ const Section = ( { title, img }: SectionProps ): JSX.Element => {
   );
 }
 
-export default Section;
+export default ServicesCard;

@@ -6,7 +6,7 @@ import imageFive from 'src/assets/images/service-5.jpeg';
 import imageSix from 'src/assets/images/service-6.jpeg';
 import imageSeven from 'src/assets/images/service-7.jpg';
 import imageEight from 'src/assets/images/service-8.jpeg';
-import Section from './Section';
+import ServicesCard from './ServicesCard';
 
 const OurServices = () => {
     return (
@@ -21,35 +21,35 @@ const OurServices = () => {
                 </div>
 
                 <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'>
-                    <Section
+                    <ServicesCard
                         img={imageOne}
                         title='РОЗВЕДЕННЯ (ЗАМІНА) ПРОВОДКИ'
                     />
-                    <Section
+                    <ServicesCard
                         img={imageTwo}
                         title='ВСТАНОВЛЕННЯ СВІТИЛЬНИКІВ, ВИМИКАЧІВ, РОЗЕТОК'
                     />
-                    <Section
+                    <ServicesCard
                         img={imageThree}
                         title='ВСТАНОВЛЕННЯ СИГНАЛІЗАЦІЇ'
                     />
-                    <Section
+                    <ServicesCard
                         img={imageFour}
                         title='ВСТАНОВЛЕННЯ ВІДЕОНАГЛЯДУ'
                     />
-                    <Section
+                    <ServicesCard
                         img={imageFive}
                         title='МОНТАЖ ЕЛЕКТРОЩИТКА'
                     />
-                    <Section
+                    <ServicesCard
                         img={imageSix}
                         title='ВЛАШТУВАННЯ ЕЛЕКТРИЧНОЇ ТЕПЛОЇ ПІДЛОГИ'
                     />
-                    <Section
+                    <ServicesCard
                         img={imageSeven}
                         title='СИСТЕМА "РОЗУМНИЙ ДІМ"'
                     />
-                    <Section
+                    <ServicesCard
                         img={imageEight}
                         title='БЛИСКАВКОЗАХИСТ ЗАЗЕМЛЕННЯ'
                     />
