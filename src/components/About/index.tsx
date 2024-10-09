@@ -28,8 +28,8 @@ const About = () => {
                         </div>
                         <div className='bg-black text-BrandYellow rounded-2xl inline-block max-w-[400px]'>
                             <p className='p-4 font-light'>Ви можете звʼязатись із нами за цим номером телефону
-                                <a href="tel:+380662866688" className='px-2'>
-                                    <span className='underline text-lg inline-block'> 066-286-66-88</span>
+                                <a href="tel:+380501918692" className='px-2'>
+                                    <span className='underline text-lg inline-block'> +380-50-191-86-92</span>
                                 </a>
                             </p>
                         </div>

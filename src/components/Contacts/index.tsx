@@ -12,7 +12,7 @@ const Contacts = () => {
             <div className='container p-4 w-full h-full'>
                 <div className='flex flex-col'>
                     <h3 className='text-3xl font-bold max-w-[600px]'>Якщо потрібний якісний електромонтаж - телефонуйте!</h3>
-                    <a href="tel:+380662866688" className='inline-block max-w-[300px]'>
+                    <a href="tel:+380501918692" className='inline-block max-w-[300px]'>
                         <Button
                             size='lg'
                             className='text-BrandYellow w-full rounded-full mt-8 flex justify-center items-center gap-2 bg-black'

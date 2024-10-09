@@ -28,7 +28,7 @@ const Welcome = () => {
                         <span>Якість</span>
                     </div>
                     <h1 className='text-white font-bold text-center text-3xl max-w-[300px] lg:text-5xl lg:max-w-[500px]'>Надаємо послуги професійного електромонтажу</h1>
-                    <a href="tel:+380662866688">
+                    <a href="tel:+380501918692">
                         <Button
                             size='lg'
                             className='text-black rounded-full mt-8 flex items-center gap-2 bg-BrandYellow'
