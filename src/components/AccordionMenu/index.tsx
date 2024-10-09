@@ -12,6 +12,9 @@ const AccordionMenu = () => {
             <div className="container p-4">
                 <div className='text-center mb-8'>
                     <h3 className='text-3xl font-bold'>Ціни</h3>
+                    <p className="py-4">
+                        <em>* ціну необхідно уточнити, оскільки вона може варіюватися залежно від об'єкта та обсягу роботи</em>
+                    </p>
                 </div>
                 <AccordionElement
                     id={1}
