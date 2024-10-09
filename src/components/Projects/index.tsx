@@ -1,15 +1,13 @@
 import SocialMedia from '../SocialMedia';
 import ProjectCard from './ProjectCard';
-import imageOne from 'src/assets/images/projects-1.jpeg';
-import imageTwo from 'src/assets/images/projects-2.jpeg';
-import imageThree from 'src/assets/images/projects-3.jpeg';
-import imageFour from 'src/assets/images/projects-4.jpeg';
+
+import * as img from "./re-export";
 
 const Projects = () => {
     return (
         <section
-        id='projects'
-        className='w-full pt-16 md:pt-32'
+            id='projects'
+            className='w-full pt-16 md:pt-32'
         >
             <div className='container p-4 flex flex-col justify-center w-full h-full'>
                 <div className='flex justify-between items-center mb-8'>
@@ -19,28 +17,64 @@ const Projects = () => {
 
                 <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'>
                     <ProjectCard
-                    title='ЕЛЕКТРОМОНТАЖ У КВАРТИРАХ'
-                    img={imageThree}
-                    link='https://www.instagram.com/p/CyAQAwfNPzx/'
-                    />
+                        title='ЕЛЕКТРОМОНТАЖ У КВАРТИРАХ'
+                        link='https://www.instagram.com/p/CyAQAwfNPzx/'
+                    >
+                        <picture>
+                            <source srcSet={img.imageThreeWebP} />
+                            <img
+                                className="h-full w-full rounded-xl object-cover object-center"
+                                src={img.imageThree}
+                                alt="image"
+                                loading="lazy"
+                            />
+                        </picture>
+                    </ProjectCard>
 
                     <ProjectCard
-                    title='ЗАМІСЬКІ БУДИНКИ'
-                    img={imageTwo}
-                    link='https://www.instagram.com/p/CtydkpfOvuI/'
-                    />
+                        title='ЗАМІСЬКІ БУДИНКИ'
+                        link='https://www.instagram.com/p/CtydkpfOvuI/'
+                    >
+                        <picture>
+                            <source srcSet={img.imageTwoWebP} />
+                            <img
+                                className="h-full w-full rounded-xl object-cover object-center"
+                                src={img.imageTwo}
+                                alt="image"
+                                loading="lazy"
+                            />
+                        </picture>
+                    </ProjectCard>
 
                     <ProjectCard
-                    title='МОНТАЖ ЗАЗЕМЛЕННЯ'
-                    img={imageFour}
-                    link='https://www.instagram.com/p/CpHeNvFKxV9/'
-                    />
+                        title='МОНТАЖ ЗАЗЕМЛЕННЯ'
+                        link='https://www.instagram.com/p/CpHeNvFKxV9/'
+                    >
+                        <picture>
+                            <source srcSet={img.imageFourWebP} />
+                            <img
+                                className="h-full w-full rounded-xl object-cover object-center"
+                                src={img.imageFour}
+                                alt="image"
+                                loading="lazy"
+                            />
+                        </picture>
+                    </ProjectCard>
 
                     <ProjectCard
-                    title='МОНТАЖ СИСТЕМ ОСВІТЛЕННЯ'
-                    img={imageOne}
-                    link='https://www.instagram.com/p/CqAIAUiuKYt/'
-                    />
+                        title='МОНТАЖ СИСТЕМ ОСВІТЛЕННЯ'
+                        link='https://www.instagram.com/p/CqAIAUiuKYt/'
+                    >
+                        <picture>
+                            <source srcSet={img.imageOneWebP} />
+                            <img
+                                className="h-full w-full rounded-xl object-cover object-center"
+                                src={img.imageOne}
+                                alt="image"
+                                loading="lazy"
+                            />
+                        </picture>
+                    </ProjectCard>
                 </div>
             </div>
         </section>
