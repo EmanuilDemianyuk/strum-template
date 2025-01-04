@@ -23,6 +23,6 @@ export type AccordionProps = {
 export type Description = {
   name: string;
   unit: string;
-  price: number;
+  price: string;
   comments: string | undefined;
 };
