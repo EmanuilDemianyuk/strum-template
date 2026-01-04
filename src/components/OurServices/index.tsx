@@ -2,7 +2,7 @@ import ServicesCard from './ServicesCard';
 import ImageBox from '../ImageBox';
 import { servicesList } from './constant/servicesList';
 
-const imgClass = 'h-full w-full rounded-xl object-cover object-center';
+const imgClass = 'h-full w-full object-cover object-center';
 
 const OurServices = () => {
     return (

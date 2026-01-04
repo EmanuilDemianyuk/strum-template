@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://strum-template-cv.vercel.app/sitemap.xml
+w
