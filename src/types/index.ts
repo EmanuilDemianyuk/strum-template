@@ -26,3 +26,11 @@ export type Description = {
   price: string;
   comments: string | undefined;
 };
+
+export type ImageBoxProps = {
+  title: string;
+  image: string;
+  imageWebP: string;
+  loading?: "eager" | "lazy";
+  className?: string;
+};

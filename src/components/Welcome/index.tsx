@@ -1,22 +1,33 @@
 import { Button } from '@material-tailwind/react';
+import ImageBox from 'src/components/ImageBox';
 
 import * as img from "./re-export";
 
+const CLIP_PATH =
+    'polygon(50% 0%, 100% 0%, 100% 95%, 75% 95%, 70% 100%, 30% 100%, 25% 95%, 0% 95%, 0% 0%)';
+
+const contactPhone = '+380501918692';
+
 
 const Welcome = () => {
+
     return (
         <section
             id='welcome'
             className='bg-black text-BrandYellow w-full min-h-[470px] relative pt-16'
-            style={{ clipPath: "polygon(50% 0%, 100% 0%, 100% 95%, 75% 95%, 70% 100%, 30% 100%, 25% 95%, 0% 95%, 0% 0%)" }}>
-            <div className='hidden md:block md:absolute top-28 left-2'>
+            style={{ clipPath: CLIP_PATH }}>
+
+            <div className={'hidden md:block md:absolute top-28 left-2'}>
                 <div className='min-h-[300px] max-w-[210px]'>
-                    <picture>
-                        <source srcSet={img.workerOneWebP} type="image/webp" />
-                        <img className='w-full h-full object-cover rounded-2xl' src={img.workerOne} alt="worker" loading="lazy" />
-                    </picture>
+                    <ImageBox
+                        title="worker"
+                        image={img.workerOne}
+                        imageWebP={img.workerOneWebP}
+                        className='h-full w-full rounded-xl object-cover object-center'
+                    />
                 </div>
             </div>
+
 
             <div className='container p-4 w-full h-full'>
                 <div className='flex flex-col justify-center items-center'>
@@ -28,7 +39,10 @@ const Welcome = () => {
                         <span>Якість</span>
                     </div>
                     <h1 className='text-white font-bold text-center text-3xl max-w-[300px] lg:text-5xl lg:max-w-[500px]'>Надаємо послуги професійного електромонтажу</h1>
-                    <a href="tel:+380501918692">
+                    <a
+                        href={`tel: ${contactPhone}`}
+                        aria-label={`Зателефонувати за номером ${contactPhone}`}
+                    >
                         <Button
                             size='lg'
                             className='text-black rounded-full mt-8 flex items-center gap-2 bg-BrandYellow'
@@ -42,12 +56,15 @@ const Welcome = () => {
                 </div>
             </div>
 
-            <div className='hidden md:block md:absolute top-28 right-2'>
+
+            <div className={'hidden md:block md:absolute top-28 right-2'}>
                 <div className='min-h-[300px] max-w-[210px]'>
-                    <picture>
-                        <source srcSet={img.workerTwoWebP} type="image/webp" />
-                        <img className='w-full h-full object-cover rounded-2xl' src={img.workerTwo} alt="worker" loading="lazy" />
-                    </picture>
+                    <ImageBox
+                        title="worker"
+                        image={img.workerTwo}
+                        imageWebP={img.workerTwoWebP}
+                        className='h-full w-full rounded-xl object-cover object-center'
+                    />
                 </div>
             </div>
         </section>

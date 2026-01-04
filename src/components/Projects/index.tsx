@@ -1,7 +1,10 @@
 import SocialMedia from '../SocialMedia';
 import ProjectCard from './ProjectCard';
+import ImageBox from '../ImageBox';
 
-import * as img from "./re-export";
+import { projectData } from './constant/projectData';
+
+const imgClass = 'h-full w-full rounded-xl object-cover object-center';
 
 const Projects = () => {
     return (
@@ -16,65 +19,13 @@ const Projects = () => {
                 </div>
 
                 <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'>
-                    <ProjectCard
-                        title='ЕЛЕКТРОМОНТАЖ У КВАРТИРАХ'
-                        link='https://www.instagram.com/p/CyAQAwfNPzx/'
-                    >
-                        <picture>
-                            <source srcSet={img.imageThreeWebP} />
-                            <img
-                                className="h-full w-full rounded-xl object-cover object-center"
-                                src={img.imageThree}
-                                alt="image"
-                                loading="lazy"
-                            />
-                        </picture>
-                    </ProjectCard>
-
-                    <ProjectCard
-                        title='ЗАМІСЬКІ БУДИНКИ'
-                        link='https://www.instagram.com/p/CtydkpfOvuI/'
-                    >
-                        <picture>
-                            <source srcSet={img.imageTwoWebP} />
-                            <img
-                                className="h-full w-full rounded-xl object-cover object-center"
-                                src={img.imageTwo}
-                                alt="image"
-                                loading="lazy"
-                            />
-                        </picture>
-                    </ProjectCard>
-
-                    <ProjectCard
-                        title='МОНТАЖ ЗАЗЕМЛЕННЯ'
-                        link='https://www.instagram.com/p/CpHeNvFKxV9/'
-                    >
-                        <picture>
-                            <source srcSet={img.imageFourWebP} />
-                            <img
-                                className="h-full w-full rounded-xl object-cover object-center"
-                                src={img.imageFour}
-                                alt="image"
-                                loading="lazy"
-                            />
-                        </picture>
-                    </ProjectCard>
-
-                    <ProjectCard
-                        title='МОНТАЖ СИСТЕМ ОСВІТЛЕННЯ'
-                        link='https://www.instagram.com/p/CqAIAUiuKYt/'
-                    >
-                        <picture>
-                            <source srcSet={img.imageOneWebP} />
-                            <img
-                                className="h-full w-full rounded-xl object-cover object-center"
-                                src={img.imageOne}
-                                alt="image"
-                                loading="lazy"
-                            />
-                        </picture>
-                    </ProjectCard>
+                    {projectData.map(({ title, image, imageWebP, id, link }) => {
+                        return (
+                            <ProjectCard title={title} link={link} key={id}>
+                                <ImageBox {...{ title, image, imageWebP }} className={imgClass} />
+                            </ProjectCard>
+                        )
+                    })}
                 </div>
             </div>
         </section>
