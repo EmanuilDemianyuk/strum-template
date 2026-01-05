@@ -1,5 +1,5 @@
 <div align='center'>
- <img width="200px" src='https://svgshare.com/i/10Kh.svg' title='Strum.cv' />
+ <img width="200px" src='https://strumcv.com/logoStrum.svg' title='Strum.cv' />
 <br>
 <h1 align='center'>Strum.cv</h1>
 </div>
@@ -8,8 +8,7 @@
 <p>The project was made for a team of electricians and was built on the principle of a single page. This is a team project written by 2 developers.</p>
 <p>The main idea of this project is simplicity and accessible information.</p>
 
-
-👉 Live Demo: <a href='https://strum-template.vercel.app/'>Strum.cv Demo</a>
+👉 Live: <a href='https://strumcv.com'>Strumcv</a>
 
 <h3>Build with:</h3>
 
@@ -17,7 +16,6 @@
 
 <h2>Screenshots of the Project 📸</h2>
 <br>
-
 
 <div align='center'>
  <img src='/screenshot/strum-template.png'/>
