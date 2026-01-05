@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://strumcv.com
-w
+Sitemap: https://strumcv.com/sitemap.xml

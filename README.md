@@ -1,5 +1,4 @@
 <div align='center'>
- <img width="200px" src='https://strumcv.com/logoStrum.svg' title='Strum.cv' />
 <br>
 <h1 align='center'>Strum.cv</h1>
 </div>
