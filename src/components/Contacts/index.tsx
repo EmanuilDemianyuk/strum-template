@@ -2,6 +2,7 @@ import { Button } from '@material-tailwind/react';
 
 import * as img from "./re-export";
 import ImageBox from '../ImageBox';
+import { contactPhone } from 'src/constants/contactPhone';
 
 const CLIP_PATH = "polygon(10% 4%, 40% 4%, 44% 0%, 100% 0%, 100.2% 100.5%, 50% 100.5%, 0% 100.5%, 0% 0%, 6% 0%)";
 
@@ -13,9 +14,13 @@ const Contacts = () => {
             style={{ clipPath: CLIP_PATH }}
         >
             <div className='container p-4 w-full h-full'>
-                <div className='flex flex-col'>
+                <div className='flex flex-col gap-2'>
                     <h3 className='text-3xl font-bold max-w-[600px]'>Якщо потрібний якісний електромонтаж - телефонуйте!</h3>
-                    <a href="tel:+380501918692" className='inline-block max-w-[300px]'>
+                    <a
+                        href={`tel: ${contactPhone}`}
+                        aria-label={`Зателефонувати за номером ${contactPhone}`}
+                        className='inline-block max-w-[300px]'
+                    >
                         <Button
                             size='lg'
                             className='text-BrandYellow w-full rounded-full mt-8 flex justify-center items-center gap-2 bg-black'
@@ -43,7 +48,7 @@ const Contacts = () => {
                         className='max-w-350px sm:max-w-[400px] md:max-w-[520px]'
                     />
 
-                    <div className='max-w-[60px] max-h-[60px] sm:max-w-[100px] sm:max-h-[100px] bg-white rounded-full absolute z-20 top-40 left-2 sm:left-[-30px] md:top-56 md:left-[-5px]'>
+                    <div className='max-w-[60px] max-h-[60px] sm:max-w-[80px] sm:max-h-[80px] md:max-w-[100px] md:max-h-[100px] bg-white rounded-full absolute z-20 top-40 left-2 sm:opacity-100 md:top-56 md:left-[-5px] opacity-0'>
                         <img
                             className='w-full h-full object-cover rounded-2xl shadow-2xl shadow-white'
                             src={img.strumLogo}

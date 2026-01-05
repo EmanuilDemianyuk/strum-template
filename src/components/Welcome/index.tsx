@@ -1,12 +1,12 @@
 import { Button } from '@material-tailwind/react';
 import ImageBox from 'src/components/ImageBox';
+import { contactPhone } from 'src/constants/contactPhone';
 
 import * as img from "./re-export";
 
 const CLIP_PATH =
     'polygon(50% 0%, 100% 0%, 100% 95%, 75% 95%, 70% 100%, 30% 100%, 25% 95%, 0% 95%, 0% 0%)';
 
-const contactPhone = '+380501918692';
 
 
 const Welcome = () => {
